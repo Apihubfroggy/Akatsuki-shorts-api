@@ -3,10 +3,8 @@ const app = express();
 const port = 3001; 
 
 const videoLinks = [
-  "https://example.com/video1.mp4",
-  "https://example.com/video2.mp4",
-  "https://example.com/video3.mp4",
-  "https://example.com/video4.mp4"
+  "https://drive.google.com/uc?export=download&id=1TbtmdU8aySN1u5TpJf_JBkDXUdiDsn-k",
+  "https://drive.google.com/uc?export=download&id=1TmOFgb16w7Dc-e_KYTGBf9eGHpIgKlq3"
 ];
 
 app.get('/', (req, res) => {
